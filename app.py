@@ -76,11 +76,7 @@ def render_index():
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        '--port', help='Number of the port to run the server on (8080 by default).', default=8080, type=int)
-    args = parser.parse_args()
-    app.run(host='127.0.0.1', port=args.port, debug=True)
+    app.run(host='127.0.0.1', port=5000, debug=True)
 
 
 
