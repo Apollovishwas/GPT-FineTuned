@@ -72,7 +72,7 @@ def index():
 
 @app.route("/", methods=["GET"])
 def render_index():
-    return render_template("query.html", config=config)
+    return "Server is Online"
 
 
 if __name__ == "__main__":
